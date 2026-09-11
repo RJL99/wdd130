@@ -1,0 +1,32 @@
+body {}
+
+header,
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+}
+
+header {
+    font-size: 1.25rem;
+}
+
+footer {
+    font-size: .8rem;
+}
+
+section {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 15px auto;
+
+}
+
+main {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+h2 {
+    border_bottom: 1px solid black
+}
