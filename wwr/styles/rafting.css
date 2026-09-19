@@ -62,14 +62,16 @@ h1 {
     top: 20px;
     width: 100%;
     text-align: center;
-    background-color: var(--secondary-color);
+    background-color: var(--accent2-color);
     opacity: 0.9;
     padding: 15px;
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 20px;
     left: 20px;
     background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
 }
