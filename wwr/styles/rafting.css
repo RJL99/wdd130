@@ -1,7 +1,8 @@
 :root {
     --primary-color: #111;
     --secondary-color: #D4AF37;
-    --accent1-color: #20B2AA;
+    --accent1-color: #006666;
+    ;
     --accent2-color: #2F4F4F;
     --heading-font: Georgia, serif;
     --body-font: Arial, sans-serif;
@@ -81,6 +82,7 @@ h1 {
     width: 100%;
     text-align: center;
     background-color: var(--accent2-color);
+    color: white;
     opacity: 0.9;
     padding: 15px;
 }
