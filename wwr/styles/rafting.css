@@ -62,10 +62,18 @@ nav {
     text-decoration: none;
 }
 
+.hero {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
 .hero h1 {
     position: absolute;
     top: 20px;
+    left: 0;
     width: 100%;
+    box-sizing: border-box;
     text-align: center;
     background-color: var(--accent2-color);
     color: white;
@@ -80,14 +88,19 @@ main > h1 {
     opacity: 1;
 }
 
-.hero img {
-    display: block;
-    width: 120px;
-    height: auto;
-    float: right;
+.hero {
+    position: relative;
+    width: 100%;
 }
 
-h1 {
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -96,19 +109,45 @@ h1 {
     color: white;
     opacity: 0.9;
     padding: 15px;
+
+}
+
+main .hero h1 {
+    position: static;
+    width: auto;
+    margin: 20px 0;
+    opacity: 1;
+
+}
+
+.home-hero {
+    position: relative;
+}
+
+main .home-hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    opacity: 0.9;
 }
 
 .hero article {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+    position: static;
     background-color: var(--primary-color);
     color: white;
     padding: 10px;
+    overflow: auto;
+
 }
 
 .hero article img {
     float: right;
+    width: 150px;
+    height: auto;
+    margin: 0 0 15px 15px;
 }
 
 .hero article h2 {
