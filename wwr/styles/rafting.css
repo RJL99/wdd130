@@ -62,11 +62,22 @@ nav {
     text-decoration: none;
 }
 
-.hero {
-    position: relative;
-    background-image: url(../images/Rafting_general.jpg);
-    height: 350px;
-    margin-top: 20px;
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--accent2-color);
+    color: white;
+    opacity: 0.9;
+    padding: 15px;
+}
+
+main > h1 {
+    position: static;
+    width: auto;
+    margin: 20px 16px;
+    opacity: 1;
 }
 
 .hero img {
@@ -179,4 +190,21 @@ h1 {
     width: 100%;
     height: auto;
     max-height: none;
+}
+
+.trip {
+    margin: 0;
+    min-width: 0;
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
